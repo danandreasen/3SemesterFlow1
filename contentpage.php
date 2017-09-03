@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>CONTENT</title>
+<title>Content</title>
 <link rel="stylesheet" href="reset.css">
 <link rel="stylesheet" href="simplegrid.css">
 <link rel="stylesheet" href="styles_login.css">
