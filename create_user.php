@@ -76,16 +76,7 @@ if(filter_input(INPUT_POST, 'submit')){
 
 
 
-<!--
- <div class="wrapper">
-    <form class="form-signin" action="<?= $_SERVER['PHP_SELF'] ?>" method="post">       
-      <h2 class="form-signin-heading">Please login</h2>
-      <input name="un" type="text" class="form-control" min="1" max="45" placeholder="Username" required autofocus />
-      <input name="pw" type="password" class="form-control" min="1" max="255" placeholder="Password" required />
-      <button class="btn btn-lg btn-primary btn-block" name="submit" type="submit">Login</button>   
-    </form>
-  </div>
--->
+
 
 
 </body>
