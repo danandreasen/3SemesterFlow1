@@ -1,0 +1,449 @@
+@charset "UTF-8";
+/* CSS Document */
+@import 'https://fonts.googleapis.com/css?family=Raleway:200,300,400';
+@import 'https://fonts.googleapis.com/css?family=Monoton';
+
+
+
+body {
+	font-family: Raleway, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-weight: 200;
+	background: linear-gradient(132deg, #ec5218, #1665c1);
+	background-size: 400% 400%;
+	animation: BackgroundGradient 40s ease infinite;
+}
+
+/* create_user.php below */
+.box_usercreated {
+	text-align: center;
+	margin-bottom: 50px;
+	width: 100%;
+}
+.message_usercreated {
+	font-size: 1.3em;
+	text-align: center;
+	margin-top: 100px;
+	line-height: 1.2;
+	color: white;
+	font-weight: 200;
+}
+.username {
+	line-height: 1.2;
+	font-weight: bold;
+}
+.message_createerror {
+    font-family: Raleway;
+	font-size: 1.3em;
+	text-align: center;
+	margin-top: 100px;
+	line-height: 1.2;
+	color: white;
+}
+.btn_gotologin {
+	font-size: 1.6em;
+	font-weight: 300;
+	margin-top: 30px;
+	width: 300px;
+	text-align: center;
+	padding: 15px 0px;
+	color: white;
+	background: #FF4747;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: 0.2s;
+}
+.btn_gotologin:hover {
+	color: black;
+	transform: scale(1.1);
+}
+.inputfield_create {
+	border-bottom: 1px solid #00D063;
+    border-radius: 0px;
+	outline: none;
+}
+.btn_create_user {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	width: 300px;
+	text-align: center;
+	padding: 15px 0px;
+	font-size: 1.5em;
+	color: white;
+	background: #00D063;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: 0.2s;
+}
+.btn_create_user:hover {
+	color: black;
+	transform: scale(1.08);
+}
+/* also for login */
+.box {
+	position: relative;
+	text-align: center;
+	background: white;
+	margin-top: 100px;
+	margin-left: 33%;
+	width: 500px;
+	height: 340px;
+	border-radius: 10px;
+}
+.box p a {
+	color: black;
+	font-weight: 300;
+	text-decoration: none;
+}
+legend {
+	font-size: 2em;
+	font-weight: 400;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+	padding-top: 10px;
+}
+form {
+	margin-top: 30px;
+	margin-left: 22%;
+	font-size: 1.0em;
+	text-align: left;
+}
+form input {
+	padding: 10px 5px;
+	margin: 1px 0px;
+	font-size: 1.2em;
+	font-weight: 300;
+	width: 290px;
+	text-align: left;
+	border: none;
+	border-radius: 5px;
+}
+
+/* Login.php below */
+.inputfield_login {
+	border-bottom: 1px solid #FF4747;
+    border-radius: 0px;
+	outline: none;
+}
+.btn_login {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	width: 300px;
+	text-align: center;
+	padding: 15px 0px;
+	font-size: 1.5em;
+	color: white;
+	background: #FF4747;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: 0.2s;
+}
+.btn_login:hover {
+	color: black;
+	transform: scale(1.08);
+}
+.message_login {
+	font-size: 1.3em;
+	text-align: center;
+	margin-top: 100px;
+	line-height: 1.2;
+	color: white;
+}
+.bold {
+	font-weight: bold;
+	color: white;
+}
+.message_loginerror {
+	margin-top: 70px;
+	text-align: center;
+	font-size: 1.3em;
+	font-weight: 400;
+	color: white;
+}
+
+.btn_continue {
+	margin-top: 30px;
+	width: 300px;
+	text-align: center;
+	padding: 15px 0px;
+	font-size: 1.3em;
+	font-weight: 300;
+	color: white;
+	background: #00D063;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: 0.2s;
+	margin-bottom: 30px;
+}
+.btn_continue:hover {
+	color: black;
+	transform: scale(1.1);
+}
+.link_logout {
+	color: white;
+	font-weight: 300;
+	text-decoration: none;
+	transition: 0.2s;
+}
+.link_logout:hover {
+	color: #FF4747;
+	transform: scale(1.2);
+}
+
+
+/* Contentpage */
+.box1_contentpage {
+	height: 940px;
+	text-align: center;
+	background: #111;
+}
+@keyframes BackgroundGradient {
+  0% {background-position: 0% 50%;}
+  50% {background-position: 100% 50%;}
+  100% {background-position: 0% 50%;}
+}
+.box1_contentpage a {
+	float: left;
+	font-size: 1.5em;
+	padding: 20px;
+	color: white;
+	text-decoration: none;
+	transition: 0.2s;
+}
+.box1_contentpage a:hover {
+	transform: scale(1.08);
+}
+.message_needto_login {
+    font-family: Raleway;
+	text-align: center;
+	font-size: 2em;
+	margin-top: 50px;
+}
+.message_needto_login a {
+	color: white;
+	text-decoration: none;
+	transition: 0.2s;
+	text-transform: uppercase;
+}
+.message_needto_login a:hover {
+	transform: scale(1.1);
+	color: #FF4747;
+}
+
+/* Star Wars Animation - All credit for this code below goes to Jason Booras at codepen: https://codepen.io/jasonbooras/pen/VjvLzG?q=star%20wars%20animation&limit=all&order=popularity&depth=everything&show_forks=false */
+.message_contentpage {
+	font-family: Helvetica, Arial, "sans-serif";
+	font-size: 3em;
+	font-weight: 300;
+	line-height: 1.2;
+  position: absolute;
+  left: 50%;
+  top: 15%;
+  transform: translateX(-50%) translateY(-50%);
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 10px;
+}
+.box2_contentpage {
+	margin-top: 50px;
+	background-color: #111;
+  	color: yellow;
+  	overflow: hidden;
+	position: absolute;
+ 	width: 60%;
+	left: 20%;
+	height: 50em;
+	bottom: -50px;
+	font-weight: bold;
+	font-family: helvetica;
+	text-align: justify;
+	font-size: 35pt;
+	line-height: 65px;
+	transform-origin: 50% 100%;
+	transform: perspective(500px) rotateX(35deg);
+}
+.box2_contentpage p {
+	line-height: 1.8;
+	position: absolute;
+ 	animation: scroll 100s linear 0s infinite;
+}
+@keyframes scroll{
+  0%{top:100%;}
+  100%{top:-500%;}
+}
+
+
+
+/* Logout page */
+.message_logged_out {
+	font-family: Raleway, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 2em;
+	font-weight: 200;
+  position: absolute;
+  left: 50%;
+  top: 15%;
+  transform: translateX(-50%) translateY(-50%);
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 5px;
+}
+.login_button {
+	float: left;
+	font-size: 1.5em;
+	padding: 20px;
+	color: white;
+	text-decoration: none;
+	transition: 0.2s;
+}
+.login_button:hover {
+	transform: scale(1.09);
+}
+
+/* Tablet - stylesheet */
+@media screen and (min-width: 768px) and (max-width: 999px) {
+.box {
+	margin-left: 25%;
+	}
+
+/* contentpage.php */
+.message_contentpage {
+	font-family: Helvetica, Arial, "sans-serif";
+	font-size: 2em;
+	font-weight: 300;
+	line-height: 1.2;
+  position: absolute;
+  left: 50%;
+  top: 15%;
+  transform: translateX(-50%) translateY(-50%);
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0px;
+}
+
+.box2_contentpage {
+ 	width: 90%;
+	left: 5%;
+	height: 50em;
+	bottom: -70px;
+	font-weight: bold;
+	font-family: helvetica;
+	text-align: justify;
+	font-size: 35pt;
+	line-height: 65px;
+	transform-origin: 50% 100%;
+	transform: perspective(500px) rotateX(35deg);
+}
+.box2_contentpage p {
+	line-height: 1.8;
+	position: absolute;
+ 	animation: scroll 100s linear 0s infinite;
+}
+	
+	
+	
+}
+
+/* Vertical Smartphone - stylesheet */
+@media handheld, only screen and (max-width: 767px) {
+.box {
+	margin-left: 13%;
+	}
+legend {
+	padding-top: 20px;	
+}
+/* contentpage */
+.message_contentpage {
+	font-family: Helvetica, Arial, "sans-serif";
+	font-size: 2em;
+	font-weight: 300;
+	line-height: 1.2;
+  position: absolute;
+  left: 50%;
+  top: 15%;
+  transform: translateX(-50%) translateY(-50%);
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0px;
+}
+
+.box2_contentpage {
+ 	width: 90%;
+	left: 5%;
+	height: 50em;
+	bottom: -310px;
+	font-weight: bold;
+	font-family: helvetica;
+	text-align: justify;
+	font-size: 35pt;
+	line-height: 65px;
+	transform-origin: 50% 100%;
+	transform: perspective(500px) rotateX(35deg);
+}
+.box2_contentpage p {
+	line-height: 1.8;
+	position: absolute;
+ 	animation: scroll 100s linear 0s infinite;
+}
+	
+	
+	
+	
+	
+}
+
+/* Smartphone Stylesheet */
+@media screen and (max-width: 440px) {
+.box {
+	margin-top: 0px;
+	margin-left: 0%;
+	max-width: 360px;
+}
+form {
+		margin-left: 20px;
+}
+
+	
+	
+/* contentpage.php */
+.message_contentpage {
+	font-family: Helvetica, Arial, "sans-serif";
+	font-size: 1.5em;
+	font-weight: 300;
+	line-height: 1.2;
+  position: absolute;
+  left: 50%;
+  top: 15%;
+  transform: translateX(-50%) translateY(-50%);
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0px;
+}
+
+.box2_contentpage {
+ 	width: 90%;
+	left: 5%;
+	height: 50em;
+	bottom: -150px;
+	font-weight: bold;
+	font-family: helvetica;
+	text-align: justify;
+	font-size: 35pt;
+	line-height: 65px;
+	transform-origin: 50% 100%;
+	transform: perspective(500px) rotateX(35deg);
+}
+.box2_contentpage p {
+	line-height: 1.8;
+	position: absolute;
+ 	animation: scroll 100s linear 0s infinite;
+}
+
+	
+
+}
